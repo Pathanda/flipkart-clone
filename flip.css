@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 56px;
+    background-color: #2874f0;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar a{
+    text-decoration: none;
+}
+.logo-section{
+    display:inline;
+    width: 80px;
+    margin: 2px 0px 2px 170px;
+}
+.flipkart-logo{
+    width: 75px;
+    height: 20.11px;
+    margin-top: 15px;
+}
+.logo-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-style: italic;
+    width: 75px;
+    height: 15.4px;
+    margin-bottom: 15px;
+}
+.span{
+    color: #ffe500;
+    font-size: 11px;
+}
+.searchbox{
+    width: 340px;
+    margin-right: 10px;
+    display: flex;
+}
+.input{
+    height: 36px;
+    width: 564px;
+    border-radius: 1rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: none;
+    outline: 0 none;
+    padding: 0 16px;
+}
+.searchlogo{
+    height: 36px;
+    width: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2874f0;
+    background-color: #fff;
+    border: none;
+    outline:0 none;
+    padding: 4px 12px 2px 8px;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    cursor: pointer;
+}
+.loginbox{
+    height: 32px;
+    padding: 5px 40px;
+    background-color: #fff;
+    color: #2874f0;
+    cursor: pointer;
+    border-radius: 1rem;
+    transition: 0.3s;
+}
+.loginbox:hover{
+    font-size: 1.1rem;
+}
+.loginbox a{
+    color:#2874f0 ;
+}
+.seller a,.more a,.cartbox a{
+    color: #fff;
+    transition: 0.3s;
+}
+.cartbox:hover{
+    font-size: 1.1rem;
+}
+.more :hover{
+    font-size: 1.1rem;
+}
+.seller:hover{
+    font-size: 1.1rem;
+}
+.cartbox{
+    margin-right: 150px;
+}
+/*-------------------------------------------------------------second part*/
+.belownavbar{
+    display: flex;
+    max-width: 1280px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.belownavbar a{
+    text-decoration: none;
+    color: black;
+}
+.smallcard{
+    height:122px ;
+    width: 94px;
+    padding: 10px;
+    margin: 0 20px ;
+    transition: 0.3s;
+
+}
+.smallcard:hover{
+    background-color: #2875f057;
+}
+.smallcard img{
+    height: 64px;
+    width: 64px;
+}
+.smallcard p{
+    text-align: center;
+}
+.line{
+    width: 100%;
+    border-top: 8px solid rgba(213, 207, 207, 0.617);
+}
+.heroSection{
+    background-image: url(heroImg.png);
+    background-size: cover;
+    height: 280px;
+    min-width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.itemsection{
+    min-width: 1400px;
+    height: 314px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item{
+    height: 300px;
+    width: 232px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    border-radius: 15px;
+}
+.item:hover{
+    background-color: #2875f057;
+}
+.item a{
+    text-decoration: none;
+}
+.itemhead{
+    font-size: 34px;
+    word-wrap: break-word;
+    line-height: 1.34;
+    color: #2e2e2e;
+    text-align: center;
+}
+.item-btn{
+    height: 38px;
+    width: 96px;
+    background: #2874f0;
+    color: #fff;
+    border: 2px solid rgba(0, 0, 0, .2);;
+    border-radius: 4px; 
+    cursor: pointer;
+}
+.div-btn{
+    margin-top: 2rem;
+}
+.itemImg{
+    height: 200px;
+}
+.item-disc{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 15px;
+}
+.item-buy{
+    color: #388e3c;
+    padding-top: 8px;
+    font-size: 16px;
+    text-align: center;
+}
+/*-------------------------------------------------------------Third part*/
+.footersection{
+    display: flex;
+    justify-content: space-between;
+    background-color: #172337;
+    color: #fff;
+}
+.footerleft{
+    display: flex;
+    justify-content: space-evenly ;
+    margin-left: 65px;
+    padding-top: 40px;
+    width: 50%;
+}
+.footerright{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    width: 50%;
+}
+.footerinfo p{
+    font-size: 12px;
+    line-height: 2;
+}
+.footerinfo {
+    padding-right: 15px;
+}
+.footerinfo h6{
+    color: #878787;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.footerextra{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #172337;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    padding: 2rem 2rem;
+}

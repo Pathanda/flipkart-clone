@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flipcart</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="flip.css" />
+  </head>
+  <body>
+    <!-------------- NAVBAR -------------->
+    <header>
+      <div class="navbar">
+        <div class="logo-section">
+          <div><img src="flipkart-logo.png" class="flipkart-logo" /></div>
+          <div>
+            <p class="logo-text">Explore <span class="span">Plus+</span></p>
+          </div>
+        </div>
+        <div class="searchbox">
+          <input
+            type="text"
+            class="input"
+            placeholder="Search for products, brands and more"
+          />
+          <div class="searchlogo">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+        <div class="loginbox">
+          <a href="#">LogIn</a>
+        </div>
+        <div class="seller">
+          <a href="#">Become a Seller</a>
+        </div>
+        <div class="more">
+          <a href="#">More</a>
+        </div>
+        <div class="cartbox">
+          <a href="#">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart
+          </a>
+        </div>
+      </div>
+    </header>
+    <!-------------- MENU BAR -------------->
+
+    <div class="belownavbar">
+      <a href="https://www.flipkart.com/search?q=grocery&sid=eat%2Cltb&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&as-pos=1&as-type=RECENT&suggestionId=grocery%7CDry+Fruit%2C+Nut+%26+Seed&requestId=5f266f6b-ebba-4920-89ee-4bce85749b9d&as-backfill=on" class="smallcard">
+        <img src="menuIcon1.webp" alt="Grocery" />
+        <p>Grocery</p>
+      </a>
+      <a href="https://www.flipkart.com/search?q=mobiles&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off" class="smallcard">
+        <img src="menuIcon2.webp" alt="Mobiles" />
+        <p>Mobiles</p>
+      </a>
+      <a href="https://www.flipkart.com/search?q=fashion&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off" class="smallcard">
+        <img src="menuIcon3.webp" alt="Grocery" />
+        <p>Fashion</p>
+      </a>
+      <a href="https://www.flipkart.com/search?q=laptop&sid=6bo%2Cb5g&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&as-pos=1&as-type=RECENT&suggestionId=laptop%7CLaptops&requestId=85470b1e-fafc-44a7-b5c9-5a567a02aa7f&as-backfill=on" class="smallcard">
+        <img src="menuIcon4.webp" alt="Grocery" />
+        <p>Laptops</p>
+      </a>
+      <a href="https://www.flipkart.com/search?q=home&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off" class="smallcard">
+        <img src="menuIcon5.webp" alt="Grocery" />
+        <p>Home</p>
+      </a>
+      <a href="https://www.flipkart.com/search?q=electronic&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off" class="smallcard">
+        <img src="menuIcon6.webp" alt="Grocery" />
+        <p>Electronic</p>
+      </a>
+      <a href="https://www.flipkart.com/search?q=travel&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off" class="smallcard">
+        <img src="menuIcon7.webp" alt="Grocery" />
+        <p>Travel</p>
+      </a>
+      <a href="https://www.flipkart.com/search?q=toys&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off" class="smallcard">
+        <img src="menuIcon8.webp" alt="Grocery" />
+        <p>Toys</p>
+      </a>
+      <a href="https://www.flipkart.com/search?q=bikes&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off" class="smallcard">
+        <img src="menuIcon9.webp" alt="Grocery" />
+        <p>Bikes</p>
+      </a>
+    </div>
+    <div class="line"></div>
+    <!-------------- MAIN IMG -------------->
+
+    <div class="heroSection"></div>
+    <div class="line"></div>
+    <!-------------- ITEM SECTION -------------->
+
+    <div class="itemsection">
+      <div class="item">
+        <div class="itemhead"><p>Get Set for Sports</p></div>
+        <div class="div-btn">
+          <button class="item-btn" type="button">VIEW ALL</button>
+        </div>
+      </div>
+      <div class="item">
+        <img src="cloth1.webp" alt="" class="itemImg" />
+        <p class="item-disc">Men's T-shirt</p>
+        <a href="#"><p class="item-buy">Buy Now</p></a>
+      </div>
+
+      <div class="item">
+        <img src="cloth2.webp" alt="" class="itemImg" />
+        <p class="item-disc">Jackets</p>
+        <a href=""><p class="item-buy">Buy Now</p></a>
+      </div>
+
+      <div class="item">
+        <img src="cloth3.webp" alt="" class="itemImg" />
+        <p class="item-disc">Men's Trackshut</p>
+        <a href=""><p class="item-buy">Buy Now</p></a>
+      </div>
+
+      <div class="item">
+        <img src="cloth4.webp" alt="" class="itemImg" />
+        <p class="item-disc">Jackets</p>
+        <a href=""><p class="item-buy">Buy Now</p></a>
+      </div>
+    </div>
+    <div class="line"></div>
+
+    <div class="itemsection">
+      <div class="item">
+        <div class="itemhead"><p>Best of Electronics</p></div>
+        <div class="div-btn">
+          <button class="item-btn" type="button">VIEW ALL</button>
+        </div>
+      </div>
+      <div class="item">
+        <img src="electronic1.webp" alt="" class="itemImg" />
+        <p class="item-disc">Camera</p>
+        <a href=""><p class="item-buy">Buy Now</p></a>
+      </div>
+
+      <div class="item">
+        <img src="electronic2.webp" alt="" class="itemImg" />
+        <p class="item-disc">Watch</p>
+        <a href=""><p class="item-buy">Buy Now</p></a>
+      </div>
+
+      <div class="item">
+        <img src="electronic3.webp" alt="" class="itemImg" />
+        <p class="item-disc">TV</p>
+        <a href=""><p class="item-buy">Buy Now</p></a>
+      </div>
+
+      <div class="item">
+        <img src="electronic4.webp" alt="" class="itemImg" />
+        <p class="item-disc">Trimmer</p>
+        <a href=""><p class="item-buy">Buy Now</p></a>
+      </div>
+    </div>
+    <div class="line"></div>
+
+    <div class="itemsection">
+      <div class="item">
+        <div class="itemhead"><p>Fashion Top Deals</p></div>
+        <div class="div-btn">
+          <button class="item-btn" type="button">VIEW ALL</button>
+        </div>
+      </div>
+      <div class="item">
+        <img src="fashion1.webp" alt="" class="itemImg" />
+        <p class="item-disc">Lahenga Choli & Gown</p>
+        <a href=""><p class="item-buy">Buy Now</p></a>
+      </div>
+
+      <div class="item">
+        <img src="fashion2.webp" alt="" class="itemImg" />
+        <p class="item-disc">Kurtas</p>
+        <a href=""><p class="item-buy">Buy Now</p></a>
+      </div>
+
+      <div class="item">
+        <img src="fashion3.webp" alt="" class="itemImg" />
+        <p class="item-disc">Liwas</p>
+        <a href=""><p class="item-buy">Buy Now</p></a>
+      </div>
+
+      <div class="item">
+        <img src="fashion4.webp" alt="" class="itemImg" />
+        <p class="item-disc">Kurta Set</p>
+        <a href=""><p class="item-buy">Buy Now</p></a>
+      </div>
+    </div>
+    <div class="line"></div>
+
+    <div class="itemsection">
+      <div class="item">
+        <div class="itemhead"><p>Top Deals for Today</p></div>
+        <div class="div-btn">
+          <button class="item-btn" type="button">VIEW ALL</button>
+        </div>
+      </div>
+      <div class="item">
+        <img src="topDeal1.webp" alt="" class="itemImg" />
+        <p class="item-disc">Musical Instrument</p>
+        <a href=""><p class="item-buy">Buy Now</p></a>
+      </div>
+
+      <div class="item">
+        <img src="topDeal2.webp" alt="" class="itemImg" />
+        <p class="item-disc">Smart Watches</p>
+        <a href=""><p class="item-buy">Buy Now</p></a>
+      </div>
+
+      <div class="item">
+        <img src="topDeal3.webp" alt="" class="itemImg" />
+        <p class="item-disc">Umbrella</p>
+        <a href=""><p class="item-buy">Buy Now</p></a>
+      </div>
+
+      <div class="item">
+        <img src="topDeal4.webp" alt="" class="itemImg" />
+        <p class="item-disc">Soft Toys</p>
+        <a href=""><p class="item-buy">Buy Now</p></a>
+      </div>
+    </div>
+    <div class="line"></div>
+
+    <footer>
+      <div class="footersection">
+        <div class="footerleft">
+          <div class="footerinfo">
+            <h6>ABOUT</h6>
+            <p>Contact Us</p>
+            <p>About Us</p>
+            <p>Careers</p>
+            <p>Flipkart Stories</p>
+            <p>Press</p>
+            <p>Flipkart Wholesale</p>
+            <p>Corporate Information</p>
+          </div>
+          <div class="footerinfo">
+            <h6>HELP</h6>
+            <p>Payments</p>
+            <p>Shipping</p>
+            <p>Cancellation & Returns</p>
+            <p>FAQ</p>
+            <p>Report Infringement</p>
+          </div>
+          <div class="footerinfo">
+            <h6>CONSUMER POLICY</h6>
+            <p>Cancellation & Returns</p>
+            <p>Terms Of Use</p>
+            <p>Security</p>
+            <p>Privacy</p>
+            <p>Sitemap</p>
+            <p>Grievance Redressal</p>
+            <p>EPR Compliance</p>
+          </div>
+          <div class="footerinfo">
+            <h6>SOCIAL</h6>
+            <p>Facebook</p>
+            <p>Twitter</p>
+            <p>YouTube</p>
+          </div>
+        </div>
+        <div class="footerright">
+          <div class="footerinfo">
+            <h6>Mail Us:</h6>
+            <p>Flipkart Internet Private Limited,</p>
+            <p>Buildings Alyssa, Begonia &</p>
+            <p>Clove Embassy Tech Village,</p>
+            <p>Outer Ring Road, Devarabeesanahalli Village,</p>
+            <p>Bengaluru, 560103,</p>
+            <p>Karnataka, India</p>
+          </div>
+          <div class="footerinfo">
+            <h6>Registered Office Address:</h6>
+            <p>Flipkart Internet Private Limited,</p>
+            <p>Buildings Alyssa, Begonia &</p>
+            <p>Clove Embassy Tech Village,</p>
+            <p>Outer Ring Road, Devarabeesanahalli Village,</p>
+            <p>Bengaluru, 560103,</p>
+            <p>Karnataka, India</p>
+            <p>CIN : U51109KA2012PTC066107</p>
+            <p>Telephone: 044-45614700</p>
+          </div>
+        </div>
+      </div>
+      <div class="footerextra">
+        <span
+          ><i class="fa-solid fa-suitcase" style="color: #ffe500"></i> Become a
+          Seller</span
+        >
+        <span
+          ><i class="fa-solid fa-star" style="color: #ffe500"></i>
+          Advertise</span
+        >
+        <span
+          ><i class="fa-solid fa-gift" style="color: #ffe500"></i> Gift
+          Cards</span
+        >
+        <span
+          ><i class="fa-solid fa-circle-question" style="color: #ffe500"></i>
+          Help Center</span
+        >
+        <span>© 2007-2023 Flipkart.com</span>
+        <span><img src="payment-method.svg" alt="payment-method" /></span>
+      </div>
+    </footer>
+  </body>
+</html>
